@@ -1,0 +1,15 @@
+C:\Users\Wilkson Cardoso\Documents\Projetos\DotnetCore-Angular\Udemy\ProAgil\ProAgil.Repository\bin\Debug\net5.0\ProAgil.Repository.deps.json
+C:\Users\Wilkson Cardoso\Documents\Projetos\DotnetCore-Angular\Udemy\ProAgil\ProAgil.Repository\bin\Debug\net5.0\ProAgil.Repository.dll
+C:\Users\Wilkson Cardoso\Documents\Projetos\DotnetCore-Angular\Udemy\ProAgil\ProAgil.Repository\bin\Debug\net5.0\ref\ProAgil.Repository.dll
+C:\Users\Wilkson Cardoso\Documents\Projetos\DotnetCore-Angular\Udemy\ProAgil\ProAgil.Repository\bin\Debug\net5.0\ProAgil.Repository.pdb
+C:\Users\Wilkson Cardoso\Documents\Projetos\DotnetCore-Angular\Udemy\ProAgil\ProAgil.Repository\bin\Debug\net5.0\ProAgil.Domain.dll
+C:\Users\Wilkson Cardoso\Documents\Projetos\DotnetCore-Angular\Udemy\ProAgil\ProAgil.Repository\bin\Debug\net5.0\ProAgil.Domain.pdb
+C:\Users\Wilkson Cardoso\Documents\Projetos\DotnetCore-Angular\Udemy\ProAgil\ProAgil.Repository\obj\Debug\net5.0\ProAgil.Repository.csprojAssemblyReference.cache
+C:\Users\Wilkson Cardoso\Documents\Projetos\DotnetCore-Angular\Udemy\ProAgil\ProAgil.Repository\obj\Debug\net5.0\ProAgil.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wilkson Cardoso\Documents\Projetos\DotnetCore-Angular\Udemy\ProAgil\ProAgil.Repository\obj\Debug\net5.0\ProAgil.Repository.AssemblyInfoInputs.cache
+C:\Users\Wilkson Cardoso\Documents\Projetos\DotnetCore-Angular\Udemy\ProAgil\ProAgil.Repository\obj\Debug\net5.0\ProAgil.Repository.AssemblyInfo.cs
+C:\Users\Wilkson Cardoso\Documents\Projetos\DotnetCore-Angular\Udemy\ProAgil\ProAgil.Repository\obj\Debug\net5.0\ProAgil.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Wilkson Cardoso\Documents\Projetos\DotnetCore-Angular\Udemy\ProAgil\ProAgil.Repository\obj\Debug\net5.0\ProAgil.Repository.csproj.CopyComplete
+C:\Users\Wilkson Cardoso\Documents\Projetos\DotnetCore-Angular\Udemy\ProAgil\ProAgil.Repository\obj\Debug\net5.0\ProAgil.Repository.dll
+C:\Users\Wilkson Cardoso\Documents\Projetos\DotnetCore-Angular\Udemy\ProAgil\ProAgil.Repository\obj\Debug\net5.0\ref\ProAgil.Repository.dll
+C:\Users\Wilkson Cardoso\Documents\Projetos\DotnetCore-Angular\Udemy\ProAgil\ProAgil.Repository\obj\Debug\net5.0\ProAgil.Repository.pdb

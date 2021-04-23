@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Xc8MPxXwgFldermYobstfoGBZ2//zoCiwpZPmKnm+KVs0djTU39X161tmN05yToE4llWZm54vIOF1D6CqFZrRw==",
+  "dgSpecHash": "tPOcbKNGLhpscA8a11wXp1DbLboOoUlS94ZTmUH6KcRVOIreaBNal+3cIFr9PhqriHca7RsT8FxjBxPLSnRlkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Wilkson Cardoso\\source\\repos\\ProAgil.WebAPI\\ProAgil.Domain\\ProAgil.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Wilkson Cardoso\\Documents\\Projetos\\DotnetCore-Angular\\Udemy\\ProAgil\\ProAgil.Domain\\ProAgil.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
