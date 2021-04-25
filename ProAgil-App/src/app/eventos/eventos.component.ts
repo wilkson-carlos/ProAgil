@@ -1,5 +1,8 @@
-import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { templateJitUrl } from '@angular/compiler';
+import { Component, OnInit, TemplateRef } from '@angular/core';
+import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
+import { Evento } from '../_models/Evento';
+import { EventoService } from '../_services/evento.service';
 
 @Component({
   selector: 'app-eventos',
@@ -8,8 +11,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventosComponent implements OnInit {
 
+  titulo = 'Eventos';
+  eventosFiltrados: Evento[] = [];
+  eventos: Evento[] = [];
+  imagemLargura = 50;
+  imagemMargem = 2;
+  modalRef!: BsModalRef;
+
+  mostrarImagem = false;
+  bodyDeletarEvento = '';
+
   // tslint:disable-next-line:variable-name
   _filtroLista = '';
+
+  constructor(
+    private eventoService: EventoService,
+    private modalService: BsModalService
+    ) { }
 
   get filtroLista(): string{
     return this._filtroLista;
@@ -20,19 +38,17 @@ export class EventosComponent implements OnInit {
     this.eventosFiltrados = this.filtroLista ? this.filtrarEventos(this.filtroLista) : this.eventos;
   }
 
-  eventosFiltrados: any = [];
-  eventos: any = [];
-  imagemAltura = 50;
-  imagemMargem = 2;
-  mostrarImagem = false;
+  // tslint:disable-next-line:typedef
+  openModal(template: TemplateRef<any>){
+    this.modalRef = this.modalService.show(template);
+  }
 
-  constructor(private http: HttpClient) { }
   // tslint:disable-next-line:typedef
   ngOnInit() {
     this.getEventos();
   }
 
-  filtrarEventos(filtrarPor: string): any[] {
+  filtrarEventos(filtrarPor: string): Evento[] {
     filtrarPor = filtrarPor.toLocaleLowerCase();
     return this.eventos.filter(
       (evento: { tema: string; }) => evento.tema.toLocaleLowerCase().indexOf(filtrarPor) !== -1
@@ -45,9 +61,11 @@ export class EventosComponent implements OnInit {
   }
   // tslint:disable-next-line:typedef
   getEventos() {
-    this.http.get('https://localhost:44309/api/weatherforecast').subscribe(response => {
-    this.eventos = response;
-    console.log(response);
+    this.eventoService.getAllEvento().subscribe(
+    // tslint:disable-next-line:variable-name
+    (_eventos: Evento[]) => {
+    this.eventos = _eventos;
+    console.log(_eventos);
     }, error => {
       console.log(error);
     });
